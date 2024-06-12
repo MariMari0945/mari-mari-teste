@@ -29,8 +29,6 @@ module.exports.globals = {
   *                                                                           *
   ****************************************************************************/
 
-  async: false,
-
   /****************************************************************************
   *                                                                           *
   * Whether to expose each of your app's models as global variables.          *
@@ -38,15 +36,11 @@ module.exports.globals = {
   *                                                                           *
   ****************************************************************************/
 
-  models: true,
-
   /****************************************************************************
   *                                                                           *
   * Whether to expose the Sails app instance as a global variable (`sails`),  *
   * making it accessible throughout your app.                                 *
   *                                                                           *
   ****************************************************************************/
-
-  sails: true,
 
 };

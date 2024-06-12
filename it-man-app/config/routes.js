@@ -26,7 +26,6 @@ module.exports.routes = {
   'GET /product/:id': 'ProductController.findOne',
   'GET /product': 'ProductController.find',
   'PUT /product/:id': 'ProductController.update',
-  'DELETE /product/:id': 'ProductController.delete',
 
 
   /***************************************************************************
